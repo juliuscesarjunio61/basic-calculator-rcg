@@ -1,7 +1,7 @@
 @calculator
 Feature: Basic Calculator
 
-Scenario Outline: Calculating 2 numbers for each build "<Build>" and operation "<Operator>"
+Scenario Outline: Calculating 2 numbers for build "<Build>" and operation "<Operator>"
   Given I navigate to "https://testsheepnz.github.io/BasicCalculator.html#main-body"
   Then the homepage is displayed
   And I select "<Build>" in the build dropdown list
@@ -60,7 +60,7 @@ Examples:
 |8        |Multiply   |2.1    |1      |qwerty         |asdf           |
 |8        |Divide     |2.1    |1      |qwerty         |asdf           |
 
-Scenario Outline: Calculating 2 numbers for each build "<Build>" and operation "<Operator>"
+Scenario Outline: Calculating 2 numbers for build "<Build>" and operation "<Operator>"
   Given I navigate to "https://testsheepnz.github.io/BasicCalculator.html#main-body"
   Then the homepage is displayed
   And I select "<Build>" in the build dropdown list
