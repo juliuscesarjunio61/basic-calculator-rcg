@@ -1,0 +1,21 @@
+{
+  "name": "basic-calculator-rcg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch",
+    "testing": "mkdirp report && nightwatch --require cucumber.conf.js --format json:report/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "8.0.0",
+    "nightwatch": "^3.4.1"
+  },
+  "dependencies": {
+  "cucumber-html-reporter": "^7.1.1",
+  "xlsx": "^0.18.5"
+  }
+}
